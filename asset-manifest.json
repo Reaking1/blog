@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/blog/static/css/main.5f42dd2f.css",
+    "main.js": "/blog/static/js/main.3070c59c.js",
+    "static/js/787.f587e8d5.chunk.js": "/blog/static/js/787.f587e8d5.chunk.js",
+    "static/media/pic11.png": "/blog/static/media/pic11.8638a5d0b57c736bebcd.png",
+    "static/media/loot.jpg": "/blog/static/media/loot.aab99a864962f613257b.jpg",
+    "static/media/pic14.jpg": "/blog/static/media/pic14.c2d4ccb8f4b7d7265db5.jpg",
+    "static/media/pic13.jpg": "/blog/static/media/pic13.59b8657501ec27858229.jpg",
+    "static/media/pic1.jpg": "/blog/static/media/pic1.a4df289272661ecbe34e.jpg",
+    "static/media/pic6.jpg": "/blog/static/media/pic6.589c7c0235d0dfc7e18b.jpg",
+    "static/media/pic7.jpg": "/blog/static/media/pic7.e8b2d7c8d0a30c8aef52.jpg",
+    "static/media/The dog.jpg": "/blog/static/media/The dog.d2eaa4bf925a55e5ae81.jpg",
+    "index.html": "/blog/index.html",
+    "main.5f42dd2f.css.map": "/blog/static/css/main.5f42dd2f.css.map",
+    "main.3070c59c.js.map": "/blog/static/js/main.3070c59c.js.map",
+    "787.f587e8d5.chunk.js.map": "/blog/static/js/787.f587e8d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f42dd2f.css",
+    "static/js/main.3070c59c.js"
+  ]
+}
