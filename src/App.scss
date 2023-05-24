@@ -1,0 +1,75 @@
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+
+
+
+
+body {
+  font-family: "Germania One";
+  background: url(../src/componets/images/loot.jpg); //image from pinttrest suppoty the artest
+  color: black;
+  margin: 0;
+  padding: 20px;
+  border-top: none;
+  
+  
+}
+
+* {
+  margin: 8px;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+  p {
+    margin:  20px 0;
+
+  }
+
+    button {
+      border: 0;
+      padding: 8px;
+      border-radius: 4px;
+      color: black;
+      background: #fff;
+      cursor: pointer;
+    }
+ 
+
+//RootsLayout
+
+.rootLayout {
+ header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+     nav {
+      a {
+        color: inherit; /* Ensures the link text color remains unchanged */
+         padding: 5px 10px; /* Adjust padding as per your preference */
+        text-decoration: none; /* Removes underline from links */
+        border-radius: 7px;
+        font-size: 40px;
+        color: #fff;
+
+      }
+
+      a:hover {
+        background-color: rgb(154, 38, 201);
+        color: #fff;
+      }
+
+       a.active {
+        background-color: rgb(154, 38, 201);
+        color: #fff;
+        
+      }
+     }
+    
+ }
+}
+
+
+//Bloglayout
+
+   
