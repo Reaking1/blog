@@ -19,7 +19,7 @@
     border-radius: 8px;
     margin: 20px 390px;
     padding: 0;
-    width: 500px;
+    width: 50%;
     height: 400px;
     box-shadow: 0 0 20px rgba(128, 0, 128, 0.5); /* Added box shadow with a purple color */
     transform: translate(0, 50%);
@@ -47,8 +47,6 @@
   }
 
   .page {
-    display: flex;
-    justify-content: center;
     text-align: center;
     flex-direction: column;
     font-size: 20px;
@@ -58,6 +56,10 @@
       background-color: #fff;
       width: 40%;
       border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      margin: 0 20px;
+     
     }
 
     a {
@@ -101,6 +103,10 @@
    @keyframes colorChange {
      0% {
       color: #fc3e3e;
+     }
+
+     30% {
+      color: #ffaf53;
      }
 
      50% {

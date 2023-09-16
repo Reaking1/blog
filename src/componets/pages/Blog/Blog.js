@@ -1,9 +1,13 @@
-import Stream from '../../images/pic6.jpg'
 import './index.scss'
+
+//images
+import Stream from '../../images/pic6.jpg'
 import Dev from '../../images/pic7.jpg'
 import {Link} from 'react-router-dom'
-
 import Dog from '../../images/The dog.jpg'
+
+
+//packges
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleDown, faBook } from '@fortawesome/free-solid-svg-icons'
 import {faInstagram, faTwitch} from  '@fortawesome/free-brands-svg-icons'
@@ -63,13 +67,14 @@ So, you might be thinking that this type of career is an immense challenge. Well
         <p>So, the big question is: which is more difficult, streaming or being a developer? Throughout my years as a developer and streamer, I have come to the realization that being a streamer is way more challenging than being a developer. Let me explain. When I started streaming, I quickly realized that no one would actually stay and chat with me. The sad reality is that it takes a lot of effort to grab the audience's attention and even get a simple "hi" from them. Now, moving on to another aspect, without a decent microphone and 1080p/720p video quality, I can understand why people might ignore my stream. I dislike the fact that I'm constantly trying to be like other streaming channels. What's even worse is that many times it comes down to what you can offer and how fully invested you are in this field.</p>
         <p>That being said, I want to focus more on the development side of things. So, I decided to explore the challenges and analyze my results. The path of a developer is more focused on building large project-based industry skills, which could provide better job opportunities if the world was not experiencing such great inflation. I must say, it's not an easy road to embark on, especially when the world is trying to push many people (including myself) into get-rich-quick schemes.</p>
       </div>
-      <div className='next page'>
+     
+  </div>
+  <div className='next page'>
         <h3>If you enjoyed reading this please dont forgot to follow me on: <FontAwesomeIcon icon={faArrowAltCircleDown} beatFade /></h3> 
         <a href='https://www.instagram.com/reabetswetheghost/'><h3>Instagram <FontAwesomeIcon icon={faInstagram}  beatFade/></h3></a>
         <a href='https://www.twitch.tv/theghostking2003'><h3>Twitch <FontAwesomeIcon icon={faTwitch}  beatFade/></h3></a>
         <Link to='../section2' className='ink'><h3>Is it possible to become a twicth streamer and a devloper at the same time?<FontAwesomeIcon icon={faBook}  beatFade/></h3></Link>
       </div>
-  </div>
   </>
  )
 

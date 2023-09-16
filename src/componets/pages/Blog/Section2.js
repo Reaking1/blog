@@ -1,8 +1,15 @@
 
 import './index.scss'
+//images
 import Astro from '../../images/pic11.png'
-import GO from '../../images/pic14.jpg'
-import Op from '../../images/pic13.jpg'
+import Stop from '../../images/pic14.jpg'
+import GO from '../../images/pic15.png'
+
+//packages
+import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBook } from '@fortawesome/free-solid-svg-icons'
+
 
 const Section2 = () => {
    
@@ -39,6 +46,10 @@ Success doesn't happen overnight.</h1>
                 <p>Well, it's truly embarrassing to admit, but I've realized that embarking on this journey is a long and multi-directional road. Finding the right path can be quite challenging. Personally, I had to make numerous decisions, and for some reason, I chose to be a self-taught developer. During my time at Boston City Campus in South Africa (currently on a gap year – if you're interested in knowing why I took a gap year and how it has improved my tech interview skills, enhanced my streaming channel, and allowed me to focus on personal growth, you can check out this link), I learned some things like Java. However, at that time, I didn't have a laptop to code projects and improve my skills. The most challenging aspect for me in my first year was not being able to code, practice my skills, and enhance my chances of securing a job.</p>
                 <p>Fortunately, I stumbled upon a website that taught me JavaScript, HTML, and CSS. I was pleasantly surprised to see that the website focused on building projects to help users understand coding better. To pass the course, I had to complete several projects that required me to finish the JavaScript algorithms course. This taught me that I don't need the most expensive laptop in the world to learn how to code.</p>
                 <p>This experience has given me a newfound confidence in myself. Now, I strive to make progress every single day, except on streaming days. My focus is on developing exciting coding projects and figuring out how to make my CV stand out in various job applications. It has been challenging not having any income and constantly feeling pressured by my parents, especially my dad, to apply for different jobs.</p>
+                
+                </div>
+                <img src={Stop}  alt='happyjj'/>
+                <div className='section5 text'>
                 <p>It may sound strange, but the lesson I've learned is never to pursue something you don't enjoy. Even though coding can be challenging, I am determined to build myself as a developer. Moreover, I've learned another valuable lesson called "Moving on." Let me explain. I couldn't change my past, which still defines me to some extent. I faced rejections from various companies and internships, leading to insomnia that I experience on a daily basis. However, one fateful day, I managed to acquire a laptop, and my creative side (also known as my lazy side) motivated me to begin understanding myself as a person. That's when I realized that if one company doesn't offer me a position, I should move on to the next. It's similar to asking for a girl's number and her kindly declining (which never happens). You just move on. In this career path, projects are not the only valuable aspect. </p>
                 <p> Why? Well, a TikToker who landed a $200K job at a major tech company showed me that becoming a developer is not only possible but also quite challenging. At some point, I questioned whether being a developer would be worth it.
 
@@ -47,14 +58,11 @@ The sad truth is that coding wasn't my initial choice, and streaming was somethi
 <p>Every time I came across the content created by other users, I was both impressed and slightly frustrated. However, I couldn't help but smile because I enjoy challenging myself and engaging in friendly competition. I wanted to keep pushing forward, constantly seeking new challenges and wondering when I would finally find stability in solving a problem. It was during this time that I stumbled upon another valuable life lesson: to pursue something that brings me pleasure. While I can't go into much detail, I am grateful for discovering this career path.</p>
 <p>I understand that not everyone may fully comprehend what I'm talking about, but recently I have set a primary goal for myself – to face every challenge until nothing is left of me. I want to demonstrate to myself and others that achieving something significant requires a well-thought-out plan.</p>
 <p>This brings me to the question of taking a gap year in college. Now that I have completed the FreeCodeCamp JavaScript algorithm course, I encourage you to also undertake this course. You will learn a great deal, especially through challenging coding tasks. Additionally, I have completed some cool coding projects in the past that you might find interesting.</p>
-
+</div>
+</div>
+<div className='section page'>
+                <Link to='../section3' className='section ink'><h3>Next page<FontAwesomeIcon icon={faBook}  beatFade /></h3></Link>
             </div>
-            <img src={Op} alt= 'gkf' />
-            <h1>Is taking a gap year a wise decision, and how can it benefit my coding skills?</h1>
-            <div className='section5 text'>
-                <p>I must admit, my journey has been quite challenging so far. The bursary I received only covered my first year in college, and I failed to take advantage of the hiring processes during 2020-2021, which resulted in me not securing a decent internship. These setbacks occurred early on in my college journey, and it made me realize that I often felt pressured to rush into finding a job, influenced by my father and others who seemed to prioritize job attainment. I was disappointed in myself for not having found employment and, to make matters worse, my lifestyle wasn't up to par. These circumstances pushed me into a state of depression, where it felt like there was no</p>
-            </div>
-    </div>
     </>
     )
 }

@@ -25,7 +25,7 @@ const Home = () => {
        <Link to='./blog'> 
        <h3>What's more challenging: streaming or becoming a developer?</h3>
         </Link>
-       <Link to="./about">
+       <Link to="./section3">
        <h3>Is taking a gap year a good idea to improve your skills as a developer?</h3> 
        </Link>
     
