@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "homepage": "https://reaking1.github.io/blog",
+ 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
