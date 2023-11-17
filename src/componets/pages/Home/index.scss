@@ -6,10 +6,10 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      height: 400px;
-      box-shadow: #1f1f1f;
-       background: #F7F39B;
-       border-radius: 7px;
+      height: auto;
+      box-shadow: fade-in($color: #17ffe8, $amount: 0.9);
+      background: #F7F39B;
+      border-radius: 7px;
   
        .header-info {
             display: flex;
@@ -43,8 +43,8 @@
         h3:hover {
           transform: scale(1.1);
           color: #f787e4;
-          border: 4px solid #1f1f1f;
-          border-radius: 3px;
+          border-bottom: 2px solid #1f1f1f;
+          animation: forwards 1s;
           background: #fff;
 
         }
@@ -76,9 +76,9 @@
       img {
         display: block;
         width: 30%;
-        height: 30%;
-        box-shadow: fade-in($color: #9f04c5, $amount: 0.9);
-        border-radius: 7px;
+        height: auto;
+        box-shadow: fade-in($color: #17ffe8, $amount: 0.9);
+        border-radius: 50%;
         transform: translate(0, 50%);
         animation: float 5s ease-in-out infinite;
       }
@@ -114,7 +114,6 @@
       border-radius: 7px;  
       font-size: 20px;
       margin-top: 10px;
-      border: 4px solid #1f1f1f;
       background-color: #fff;
       
      }
@@ -143,7 +142,6 @@
       border-radius: 7px;  
       font-size: 20px;
       margin-top: 10px;
-      border: 4px solid #1f1f1f;
       background-color: #fff;
       
      }

@@ -6,7 +6,7 @@
 
 body {
   font-family: "Germania One";
-  background: url(../src/componets/images/loot.jpg); //image from pinttrest suppoty the artest
+  background: #8ac014d5; //image from pinttrest suppoty the artest
   color: black;
   margin: 0;
   padding: 20px;
@@ -46,22 +46,21 @@ body {
      nav {
       a {
         color: inherit; /* Ensures the link text color remains unchanged */
-         padding: 5px 10px; /* Adjust padding as per your preference */
+        padding: 5px 10px; /* Adjust padding as per your preference */
         text-decoration: none; /* Removes underline from links */
-        border-radius: 7px;
+        border-radius: 1px;
         font-size: 40px;
         color: #fff;
 
       }
 
       a:hover {
-        background-color: rgb(154, 38, 201);
+       border-bottom: 5px solid #eef2f1;
         color: #fff;
       }
 
        a.active {
-        background-color: rgb(154, 38, 201);
-        color: #fff;
+        color: #da20cb;
         
       }
      }
@@ -70,6 +69,5 @@ body {
 }
 
 
-//Bloglayout
 
    

@@ -3,7 +3,6 @@ import './index.scss'
 //images
 import Stream from '../../images/pic6.jpg'
 import Dev from '../../images/pic7.jpg'
-import {Link} from 'react-router-dom'
 import Dog from '../../images/The dog.jpg'
 
 
@@ -11,6 +10,7 @@ import Dog from '../../images/The dog.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleDown, faBook } from '@fortawesome/free-solid-svg-icons'
 import {faInstagram, faTwitch} from  '@fortawesome/free-brands-svg-icons'
+import {Link} from 'react-router-dom'
 
 const Blog = () => {
   
@@ -27,6 +27,7 @@ const Blog = () => {
 It's worth noting that both roles require different skill sets, but they both offer opportunities for creativity, collaboration, and connecting with others who share similar interests in technology and entertainment.</p>
       </div>
       <img src={Dev} alt="developer" />
+
       <h1>The difficulties of being a developer:</h1>
       <div className='blog-info2 text'>
           <p>Honestly, the path to becoming a developer is quite challenging. There are several reasons why I say this. Firstly, the process of getting a job can be tough, whether you choose to be self-taught or pursue a university degree (although, if you have the resources and time, university can be a good starting point). Secondly, I have personally experienced the struggles of finding employment, and things have become even more difficult with the rise of AI technology. It's hard to believe that the demand for developers will remain high.
@@ -48,6 +49,7 @@ So, you might be thinking that this type of career is an immense challenge. Well
       <p>Well, what's the only solution for this? It's quite simple, really. I will continue working on my projects, seeking jobs that will help me host my projects, focusing on my streaming, and building my skills as a developer. This might sound strange to you, but I have truly come to see that this is one of the most challenging career paths to enter, with a high risk of unemployment. So, what about being a streamer?</p>
       </div>
       <img src={Stream} alt="streamer" />
+
       <h1>Difficulties of being a streamer:</h1>
       <div className='blog-info3  text'>
         <p>Now, when it comes to being a streamer, I have come to realize that it can be quite time-consuming, especially for those who are impatient. Just like developers who strive to stay updated with the latest tech trends, streamers need to play the latest games. However, it requires a significant amount of resources to get started. As a mobile gamer myself (which many streamers don't consider as 'real' gamers), I probably have the worst gear of all time. I've noticed that other streamers have high-quality microphones, record 1080p videos, and engage with their loyal followers. This has caused me a lot of frustration because I don't have the financial means to afford the same streaming equipment as other streamers.</p>
@@ -62,6 +64,7 @@ So, you might be thinking that this type of career is an immense challenge. Well
        <p>Aside from these challenges, it is quite irritating when a follower wants to chat but only wants to discuss becoming a content creator. Please, for the love of God, do not fall for these types of followers who are only interested in scamming you or me for their own financial gain. They are truly disruptive and can sometimes be viewed as hackers intentionally targeting small content creators. Trust me when I say that the easy road is not worth it.</p>
       </div>
       <img src={Dog} alt="dog" />
+      
       <h1>So, what’s harder:</h1>
       <div className='blog-info4 text'>
         <p>So, the big question is: which is more difficult, streaming or being a developer? Throughout my years as a developer and streamer, I have come to the realization that being a streamer is way more challenging than being a developer. Let me explain. When I started streaming, I quickly realized that no one would actually stay and chat with me. The sad reality is that it takes a lot of effort to grab the audience's attention and even get a simple "hi" from them. Now, moving on to another aspect, without a decent microphone and 1080p/720p video quality, I can understand why people might ignore my stream. I dislike the fact that I'm constantly trying to be like other streaming channels. What's even worse is that many times it comes down to what you can offer and how fully invested you are in this field.</p>

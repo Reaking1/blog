@@ -1,6 +1,6 @@
 
 import './index.scss'
-import Pic from '../../images/pic1.jpg'
+import Pic from '../../images/Reabetswe1.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faInstagram, faTwitch } from '@fortawesome/free-brands-svg-icons'
 import  { Link } from 'react-router-dom'
@@ -28,7 +28,15 @@ const Home = () => {
        <Link to="./section3">
        <h3>Is taking a gap year a good idea to improve your skills as a developer?</h3> 
        </Link>
-    
+       <Link to="./section4">
+       <h3>A hobbies that every developer needs to have</h3> 
+       </Link>
+       <Link to="./section5">
+       <h3>Gaining skills to be better than 90% of developers</h3> 
+       </Link>
+       <Link to="./section6">
+       <h3>Starting a part-time streaming career tips and tricks</h3> 
+       </Link>
     </div>
       </div>
        <div className="image-section">
@@ -51,7 +59,7 @@ const Home = () => {
          <h2> Read Blog Now<FontAwesomeIcon icon={faBook} beatFade  size='lg'/></h2>
          </Link>
     </div>
-      
+     
 </div>
 
  </>
