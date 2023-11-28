@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom"
 import '../../App.scss'
+import {Analytics} from '@vercel/analytics'
 
 
 
@@ -15,6 +16,7 @@ const RootLayout = () => {
          </nav>
         </header>
        <main>
+         <Analytics />
          <Outlet />
        </main>
     </div>
