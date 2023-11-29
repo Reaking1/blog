@@ -5,9 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import './index.scss'
 
 
+
 const About = () => {
   return (
   <>
+  <div className="about">
   <h1>So you decided to know me well come on</h1>
   <div class="info blog text">
     
@@ -26,6 +28,8 @@ const About = () => {
          </a>
 
          </div>
+    </div>
+      
   </>
    
   )

@@ -2,8 +2,10 @@ import { NavLink, Outlet } from "react-router-dom";
 import '../../App.scss';
 
 
+
 const RootLayout = () => {
   return (
+    <>
     <div className="rootLayout">
       <header>
         <nav>
@@ -12,8 +14,9 @@ const RootLayout = () => {
           <NavLink to="/about">About</NavLink>
         </nav>
       </header>
-      <Outlet />
     </div>
+   <Outlet />
+    </>
   );
 };
 
