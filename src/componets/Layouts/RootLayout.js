@@ -12,7 +12,7 @@ const RootLayout = () => {
           <NavLink to="/about">About</NavLink>
         </nav>
       </header>
-  
+      <Outlet />
     </div>
   );
 };
