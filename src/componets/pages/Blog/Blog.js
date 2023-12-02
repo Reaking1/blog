@@ -16,7 +16,7 @@ const Blog = () => {
   
  return (
   <>
-  <div className='blog contanier'>
+  <div className='contanier'>
     <h1>What's more challenging: streaming or becoming a developer?</h1>
       <div className='blog-info1 text '>
         <p>Before we delve into the first question in detail, let's start by defining what a developer and a streamer are, and provide a proper description of the roles and responsibilities of both parties.</p>

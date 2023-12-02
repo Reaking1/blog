@@ -8,7 +8,7 @@ import Three from '../../images/pic13.jpg'
 const Section3 = () => {
      return (
         <>
-        <div className='section3 container'>
+        <div className='container'>
             <h1>Is taking a gap year a wise decision, and how can it benefit my coding skills?</h1>
             <div className='section3 text'>
                 <p>I have been on a very rough road. My bursary only lasted for my first year in college, and I didn't take advantage of the hiring processes in 2020-2021, which resulted in me failing to secure a decent internship. All of this happened in my first year. I realized that many times I was rushing to get a job because of my father and other so-called people (whom I have never seen) who always captured my father's attention by talking about job prospects. I was disappointed in myself for not having secured a job. To make matters worse, I didn't even have a decent lifestyle. I was entering a state of depression that nobody has been able to understand.</p>
@@ -16,7 +16,7 @@ const Section3 = () => {
             </div>
             <img src={One} alt='1' />
             <h1></h1>
-            <div className=' section4 text'>
+            <div className=' text'>
                 <p>The job was just as a teacher assistant, not really what one would call a job, but the pay lasted me throughout the month. This is the world I live in, where job hunting is a drag, but it does have its own benefits.
 
 This year, I have been able to take advantage of many opportunities that have helped me get back on track. Especially when it comes to building numerous apps, I have developed a strong urge to stop watching coding tutorials and instead use Chat GBT to assist me in coding projects. Honestly, building projects in React and Sass has been an exciting experience for me. It was truly enjoyable when I built my portfolio and blog using React.js and Sass. Now, you might wonder about my backend skill set. Well, I want to work closely with Node.js, Docker, and last but not least, MongoDB as a database. </p>
